@@ -16,7 +16,7 @@ header{
 }
 body{
     font-family: var(--body-font);
-    color: var(--accent-color)
+    color: var(--primary-color)
 }
 header, main, footer {
     width: 840px;
@@ -48,12 +48,11 @@ nav, p, section, article{
     height: 80px;
     display: block;
 }
-.hero h1{
+.hero h1, article{
     position: absolute;
-}
-.hero article{
     float: right;
 }
+
 
 /* header{
     background-color: #333;
