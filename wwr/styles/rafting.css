@@ -186,8 +186,6 @@ form {
 td img {
     width: 400px;
     height: auto;
-    
-
 }
 
 button {
@@ -331,4 +329,9 @@ footer img {
 
 .contact-form button:hover {
     background-color: #e5e5e5;
+}
+.map iframe{
+     width:600px; 
+     height: 450px;
+     border:0;
 }
